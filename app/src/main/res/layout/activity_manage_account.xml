@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ManageAccount">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Edit your details below and click Save"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="User Name"
+        android:id="@+id/userName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name"
+        android:id="@+id/nameLabel"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Age (in years)"
+        android:id="@+id/ageLabel"
+        android:layout_below="@+id/nameLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Address"
+        android:id="@+id/addressLabel"
+        android:layout_below="@+id/ageLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Post Code"
+        android:id="@+id/pcodeLabel"
+        android:layout_below="@+id/addressLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Doctor/Nurse"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/pcodeLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nameField"
+        android:layout_alignTop="@+id/nameLabel"
+        android:layout_toEndOf="@+id/ageLabel"
+        android:layout_alignParentEnd="true"
+        android:singleLine="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/ageField"
+        android:layout_alignTop="@+id/ageLabel"
+        android:layout_toEndOf="@+id/ageLabel"
+        android:layout_alignParentEnd="true"
+        android:singleLine="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addrField"
+        android:layout_alignTop="@+id/addressLabel"
+        android:layout_alignStart="@+id/ageField"
+        android:layout_alignParentEnd="true"
+        android:singleLine="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pCodeField"
+        android:layout_alignTop="@+id/pcodeLabel"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:singleLine="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctorField"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Enter a Password"
+        android:id="@+id/enterPasswordTextView"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="15dp"
+
+        android:layout_alignParentStart="true"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password1Field"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/enterPasswordTextView"
+        android:layout_alignTop="@+id/enterPasswordTextView"
+        android:layout_marginLeft="10dp"
+        android:nextFocusDown="@+id/password2Text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Re-enter Password"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/password1Field"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password2Field"
+        android:inputType="textPassword"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView2"
+        android:ems="10"
+        android:layout_toEndOf="@+id/textView2" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonSave"
+        android:id="@+id/saveButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:onClick="saveButtonClicked" />
+
+
+</RelativeLayout>

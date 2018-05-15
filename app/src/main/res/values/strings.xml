@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">MyMediCare</string>
+
+    <string name="buttonEnter">Enter</string>
+    <string name="buttonAccept">Accept</string>
+    <string name="buttonSave">Save</string>
+    <string name="buttonManageAccount">Manage Account</string>
+    <string name="buttonAssessStats">Assess Statistics</string>
+    <string name="buttonAssess">Assess</string>
+    <string name="buttonNewUser">Create New User</string>
+
+    <string name="buttonOK">OK</string>
+    <string name="cancelCreateUser">Cancel</string>
+    <string name="keepCreateNewUser">Keep</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="instructionsNewUserActivityNewUser">Create a new user by providing a username and password. You will then be asked to enter your details.</string>
+    <string name="instructionsAccessManageAccount">To view and edit your account details, select Manage Account</string>
+    <string name="instructionsAssessStats">To assess your statistics, select Assess Statistics</string>
+    <string name="instructionsAssessStatsActivity">Enter your statistics in the fields below and press Assess - empty fields will be ignored</string>
+    <string name="instructionsExistingUser">Existing users select username from list then enter password and click Enter.</string>
+    <string name="instructionsNewUserActivityMain">New users select Create New User to create a new profile</string>
+
+    <string name="alertCancelNewUSer">Cancel new user? Your changes will be lost.</string>
+    <string name="alertUserNameTaken">Username is already taken, please try entering a different name</string>
+    <string name="alertNoSpacesInUsername">Username cannot include spaces</string>
+    <string name="alertPasswordNoMatch">Passwords do not match, please re-try</string>
+    <string name="alertNoName">Please enter your name</string>
+    <string name="alertNoAge">Please enter your age</string>
+    <string name="alertTooYoungOld">You must be between 10 and 110 to use this app, sorry.</string>
+    <string name="alertValidInteger">Please enter a whole number for your age</string>
+    <string name="alertNoAddress">Please enter the first line of your address</string>
+    <string name="alertNoPostcode">Please enter your postcode</string>
+    <string name="alertNoDoctor">Please enter your doctor or nurse\'s name</string>
+    <string name="alertUserNotSelected">Existing users please select your username from the spinner and enter your password before proceeding. \n\nNew user please click Create New User button</string>
+
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_account_new_user">AccountNewUser</string>
+    <string name="title_activity_user_create_account">UserCreateAccount</string>
+    <string name="titleAssessStats">Assess Stats</string>
+    <string name="titleTemperature">Temperature (C or F)</string>
+    <string name="titleBloodPressure">Blood Pressure</string>
+    <string name="titleBPLower">Lower</string>
+    <string name="titleBPHigher">Higher</string>
+    <string name="titleHeartRate">Heart Rate (bpm)</string>
+
+    <string name="reportTemperatureNM">Temperature not measured.</string>
+    <string name="reportTemperatureNorm">Temperature = Normal: </string>
+    <string name="reportTemperatureLow">Temperature = Low Risk: </string>
+    <string name="reportTemperatureHigh">Temperature = High Risk: </string>
+    <string name="reportBPLNM">Blood pressure lower reading not measured.</string>
+    <string name="reportBPLNorm">Blood pressure lower reading  = Normal: </string>
+    <string name="reportBPLLow">Blood pressure lower reading = Low Risk: </string>
+    <string name="reportBPLHigh">Blood pressure lower reading = High Risk: </string>
+    <string name="reportBPHNM">Blood pressure upper reading not measured.</string>
+    <string name="reportBPHNorm">Blood pressure upper reading  = Normal: </string>
+    <string name="reportBPHLow">Blood pressure upper reading = Low Risk: </string>
+    <string name="reportBPHHigh">Blood pressure upper reading = High Risk: </string>
+    <string name="reportHeartRateNM">Heart rate not measured.</string>
+    <string name="reportHeartRateNorm">Heart rate = Normal: </string>
+    <string name="reportHeartRateLow">Heart rate = Low Risk: </string>
+    <string name="reportHeartRateHigh">Heart rate = High Risk: </string>
+
+
+</resources>

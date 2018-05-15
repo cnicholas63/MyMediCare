@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AssessStats">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/titleAssessStats"
+        android:id="@+id/monitorStatsTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="User Name"
+        android:id="@+id/userNameTextView"
+        android:layout_alignTop="@+id/monitorStatsTitle"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/instructionsAssessStatsActivity"
+        android:id="@+id/monitorStatsInstructions"
+        android:layout_below="@+id/monitorStatsTitle"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/titleTemperature"
+        android:id="@+id/tempTitle"
+        android:layout_below="@+id/monitorStatsInstructions"
+        android:layout_marginTop="25dp"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:id="@+id/temperatureEditText"
+        android:layout_toEndOf="@+id/tempTitle"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/tempTitle"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/titleBloodPressure"
+        android:id="@+id/bpTitle"
+        android:layout_below="@+id/tempTitle"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/titleBPLower"
+        android:id="@+id/bpLowerTitle"
+        android:layout_below="@+id/bpTitle"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/bpLowerEditText"
+        android:layout_alignStart="@+id/temperatureEditText"
+        android:layout_alignTop="@id/bpLowerTitle"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/titleBPHigher"
+        android:id="@+id/bpHigherTitle"
+        android:layout_below="@+id/bpLowerTitle"
+        android:layout_alignStart="@+id/bpLowerTitle"
+        android:layout_marginTop="20dp"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/bpHigherEditText"
+        android:layout_alignStart="@+id/temperatureEditText"
+        android:layout_alignTop="@id/bpHigherTitle"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/titleHeartRate"
+        android:id="@+id/heartRateTitle"
+        android:layout_below="@+id/bpHigherTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/heartRateEditText"
+        android:layout_alignTop="@+id/heartRateTitle"
+        android:layout_alignStart="@+id/temperatureEditText"
+        android:textAlignment="center"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonAssess"
+        android:id="@+id/AssessStatsButton"
+        android:onClick="assessStats"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
