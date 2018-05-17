@@ -1,5 +1,23 @@
 # MyMediCare
-Simple Android app. 
+##Prototype Android app. 
 
-Persists user details in SQL database.
-Allows entry of heart rate, body weight etc.
+Allows users to create a profile with password protection.
+Enter details:
+* Name
+* Age
+* Address
+* Doctor
+
+__User details are persisted in SQL database.__
+
+Enter current health stats:
+* Temperature
+* Blood pressure
+* Heart Rate
+
+Produces colour coded reading assessment, Green good, Amber alert, Red Danger.
+
+## Storyboard
+![alt text](https://github.com/cnicholas63/NYAS_Final/blob/master/Storyboard.png "Storyboard")
+
+
