@@ -1,5 +1,5 @@
 # MyMediCare
-##Prototype Android app. 
+## Prototype Android app. 
 
 Allows users to create a profile with password protection.
 Enter details:
