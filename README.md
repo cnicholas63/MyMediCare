@@ -18,6 +18,6 @@ Enter current health stats:
 Produces colour coded reading assessment, Green good, Amber alert, Red Danger.
 
 ## Storyboard
-![alt text](https://github.com/cnicholas63/NYAS_Final/blob/master/Storyboard.png "Storyboard")
+![alt text](https://github.com/cnicholas63/MyMediCare/blob/master/MyMediCare%20Storyboard.png "Storyboard")
 
 
