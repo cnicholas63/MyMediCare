@@ -2,7 +2,8 @@
 ## Prototype Android app. 
 
 Allows users to create a profile with password protection.
-Enter details:
+
+## Profile details include:
 * Name
 * Age
 * Address
@@ -10,7 +11,7 @@ Enter details:
 
 __User details are persisted in SQL database.__
 
-Enter current health stats:
+## Enter current health stats:
 * Temperature
 * Blood pressure
 * Heart Rate
