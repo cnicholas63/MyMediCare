@@ -16,7 +16,7 @@ __User details are persisted in SQL database.__
 * Blood pressure
 * Heart Rate
 
-Produces colour coded reading assessment, Green good, Amber alert, Red Danger.
+Produces colour coded reading assessment, _Green:_ Good, _Amber:_ Alert, _Red:_ Danger.
 
 ## Storyboard
 ![alt text](https://github.com/cnicholas63/MyMediCare/blob/master/MyMediCare%20Storyboard.png "Storyboard")
